@@ -16,3 +16,16 @@ cd src
 composer install
 cp .env.example .env
 php artisan key:generate
+```
+
+言語ファイルの日本語化
+
+以下のパッケージを使用しています。
+```bash
+composer require laravel-lang/lang:~7.0 --dev
+cp -r vendor/laravel-lang/lang/src/ja resources/lang/
+```
+config/app.phpで日本語の設定をしています。
+```bash
+'locale' => 'ja',
+```
