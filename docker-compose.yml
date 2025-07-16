@@ -12,6 +12,7 @@ services:
       - php
 
   php:
+    image: php:8.1-fpm
     build: ./docker/php
     volumes:
       - ./src:/var/www/
