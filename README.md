@@ -2,7 +2,7 @@
 My Laravel App
 
 ## 開発環境
-- PHP 7.4.33
+- PHP 8.1-fpm
 - Laravel 8.83.29
 - MySQL 8.0.26
 - Docker 使用
